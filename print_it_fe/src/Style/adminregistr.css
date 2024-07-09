@@ -1,0 +1,39 @@
+.adminregistr{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adminregistr form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 230px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0px 30px rgb(79, 75, 75);
+}
+.adminregistr form input{
+    height: 25px;
+    width: 240px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0px 10px rgb(101, 98, 98);
+    border-radius: 5px;
+}
+.adminregistr form input::placeholder{
+    color: rgb(104, 104, 243);
+    padding-left: 7px;
+}
+.adminregistr form button{
+    height: 26px;
+    width: 243px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgb(144, 225, 22);
+    border-radius: 5px;
+}

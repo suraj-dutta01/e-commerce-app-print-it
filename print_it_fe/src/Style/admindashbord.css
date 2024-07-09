@@ -1,0 +1,19 @@
+.admindashbord{
+    height:89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.allboxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: -100px;
+}
+.totaluser, .totalorder, .totalsales, .thismontsales{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+}

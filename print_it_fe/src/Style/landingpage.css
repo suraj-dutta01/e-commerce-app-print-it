@@ -1,0 +1,24 @@
+.landingpage{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.landingpage a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    color: #111;
+}
+.landingpage a:hover {
+    color:blue; 
+    box-shadow: 0 0 20px rgb(47, 102, 255);
+}
